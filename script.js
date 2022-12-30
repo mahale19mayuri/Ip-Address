@@ -12,7 +12,7 @@ getIpAddress();
 
  function getInfo(ip){
      let ipAddress = ip;
-      fetch(`http://ip-api.com/json/${ipAddress}`).then(res=>{
+      fetch(`https://ip-api.com/json/${ipAddress}`).then(res=>{
       return res.json();
      }).then(data=>{
         console.log(data);
