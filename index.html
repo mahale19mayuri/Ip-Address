@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Castoro' rel='stylesheet'>   
+</head>
+<body> 
+    <header>
+    <div class="container">    
+        <div class="mainDiv">
+                <h2>My Public IP Address: <span id="IP_Address"></span></h2>
+                
+                <table>
+                    <tr>
+                        <td>Latitude: <span id="Latitude"></span></td>
+                        <td>City: <span id="City"></span></td>
+                        <td>Organisation: <span id="Organisation"></span></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Longitude: <span id="Longitute"></span></td>
+                        <td>Region: <span id="Region"></span></td>
+                        <td>Hostname: <span id="Hostname"></span></td>
+                        
+                    </tr>
+                </table>
+
+            <div class="Map">
+                <iframe src="https://maps.google.com/maps?q=19.0748, 72.8856&output=embed" 
+                 width="790px"
+                 height="350" 
+                 frameborder="0" 
+                 style="border:0"></iframe>
+            </div>
+                   <div class="ractangle">
+                        <p>Time Zone:<span id="TimeZone"></span></p>
+                        <p>Date And Time <span id="date"></span></p>
+                        <p>Pin code:<span id="zipcode"></span></p>
+                        <p>Message:<span id="message"></span></p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Filter" id="location" onkeyup="filterData(event.target.value)">
+                    </div>
+            </div>
+            <div id="data">
+            </div>
+        </header>
+    
+    <script src="script.js"></script>
+</body>
+</html>

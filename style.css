@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Castoro";
+    font-size: 15px;
+    background-color: black;
+}
+.container
+{
+    width: 60vw;
+    height: 100vw;
+    border: solid 2px rgb(64, 61, 61);
+    position: relative;
+    left: 25%;
+    background-color: white;
+}
+/* header */
+header{
+    
+    justify-content: flex-start;
+}
+.mainDiv{
+    width: 60vw;
+    padding-bottom: 5rem;
+    display: flex;
+    padding-top:20px;
+    padding: 15px;
+    flex-direction: column;
+    
+}
+table td
+{
+   font-weight: bold;
+   padding: 10px;
+}
+span
+{
+    font-weight: normal;
+}
+.Map
+{
+    width:58vw;
+    height: 55vh;
+    padding-top: 10px;
+    display: flex;
+}
+.ractangle p
+{
+   padding:5px;
+   font-weight: bold;
+}
+ /* Input search */
+ .box{
+	width:100%;
+    border: solid black 2px;
+    height: 50px;
+	background-color: white;
+    border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+.box  i {
+    font-size: 15px;
+}
+.box input{
+	flex: 1;
+	height: 30px;
+	outline: none;
+    border: none;
+	font-size: 18px;
+	padding-left: 10px;
+}
+#data{
+    width: 100%;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.code{
+    border: 2px solid black;
+    padding: 5px 10px;
+
+}
+p{
+    padding: 10px;
+ }
+
+/* section */
+.main
+ {
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    
+ }
+ .secondmain
+ {
+    left: 30px;
+    
+ }
+.button 
+{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
